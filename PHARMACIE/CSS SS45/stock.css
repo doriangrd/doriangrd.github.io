@@ -1,0 +1,72 @@
+.low-stock {
+    background-color: #ff0000; /* Change to the color you want */
+}
+.stock_alert table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.stock_alert th, .stock_alert td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.stock_alert tr:nth-child(even){background-color: #f2f2f2;}
+.stock_alert tr:hover {background-color: #ddd;}
+.stock_alert th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.product-image img {
+    width: 50px;
+    height: 50px;
+}
+
+.button-modifier {
+    margin-top: 20px;
+    padding: 12px 0; /* Modifie le padding pour centrer le texte */
+    width: 100%; /* Fait en sorte que le bouton prenne toute la largeur */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Arrondit les coins du bouton */
+    font-size: 16px; /* Augmente la taille de la police du bouton */
+}
+
+.button-modifier:hover {
+    background-color: #45a049;
+}
+
+.submit-valider {
+    margin-top: 20px;
+    padding: 12px 0; /* Modifie le padding pour centrer le texte */
+    width: 100%; /* Fait en sorte que le bouton prenne toute la largeur */
+    background-color: #004d03;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Arrondit les coins du bouton */
+    font-size: 20px; /* Augmente la taille de la police du bouton */
+}
+
+.submit-valider:hover {
+    background-color: #004d03;
+}
+
+.button-supprimer {
+    margin-top: 20px;
+    padding: 12px 0; /* Modifie le padding pour centrer le texte */
+    width: 100%; /* Fait en sorte que le bouton prenne toute la largeur */
+    background-color: #45a049;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Arrondit les coins du bouton */
+    font-size: 16px; /* Augmente la taille de la police du bouton */
+}
+
+.button-supprimer:hover {
+    background-color: #45a049;
+}

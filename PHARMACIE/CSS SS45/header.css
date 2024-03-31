@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #376e29; /* Ajustez cette valeur pour obtenir une couleur plus claire */
+    padding: 1em;
+}
+
+input[type="search"] {
+    border-radius: 5px;
+    background-color: rgba(145, 145, 145, 0.884);
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* couleur de fond */
+    color: white; /* couleur du texte */
+    padding: 5px 10px; /* espacement intérieur */
+    margin: 4px 2px; /* marge */
+    border: none; /* pas de bordure */
+    border-radius: 4px; /* coins arrondis */
+    cursor: pointer; /* change le curseur en main lors du survol */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* change la couleur de fond lors du survol */
+}
+
+.user-nav {
+    display: flex;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-bottom: 0.1rem solid #dadce0;
+    color: white;
+    padding: 0.5em;
+}
+
+#img_tt {
+    width: 75px;
+}
+
+#logo {
+    width: 150px;
+}

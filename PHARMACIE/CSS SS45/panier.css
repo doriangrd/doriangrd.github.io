@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1em;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.button-modifier {
+    margin-top: 20px;
+    padding: 12px 0; /* Modifie le padding pour centrer le texte */
+    width: 100%; /* Fait en sorte que le bouton prenne toute la largeur */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Arrondit les coins du bouton */
+    font-size: 16px; /* Augmente la taille de la police du bouton */
+}
+
+.button-modifier:hover {
+    background-color: #45a049;
+}
+
+.submit-valider {
+    margin-top: 20px;
+    padding: 12px 0; /* Modifie le padding pour centrer le texte */
+    width: 100%; /* Fait en sorte que le bouton prenne toute la largeur */
+    background-color: #004d03;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Arrondit les coins du bouton */
+    font-size: 20px; /* Augmente la taille de la police du bouton */
+}
+
+.submit-valider:hover {
+    background-color: #004d03;
+}
+
+.button-supprimer {
+    margin-top: 20px;
+    padding: 12px 0; /* Modifie le padding pour centrer le texte */
+    width: 100%; /* Fait en sorte que le bouton prenne toute la largeur */
+    background-color: #45a049;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Arrondit les coins du bouton */
+    font-size: 16px; /* Augmente la taille de la police du bouton */
+}
+
+.button-supprimer:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Ajoutez cette ligne */
+
+}
+
+.h1 {
+    text-align: center;
+    color: #333;
+}
+
+.passer_commande {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.passer_commande form {
+    display: flex;
+    flex-direction: column;
+}
+
+.passer_commande label {
+    margin-bottom: 5px;
+}
+
+.passer_commande input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.passer_commande input[type="submit"] {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Ajoute une couleur de fond douce */
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50; /* Couleur du titre */
+    padding: 20px;
+}
+
+.inscription-form{
+    width: 360px;
+    margin: 0 auto;
+    background-color: white; /* Ajoute une couleur de fond au formulaire */
+    padding: 50px;
+    border-radius: 8px; /* Arrondit les coins du formulaire */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15); /* Ajoute une ombre au formulaire */
+}
+
+form label {
+    display: block;
+    margin-top: 20px;
+    color: #4CAF50; /* Couleur des labels */
+}
+
+form input[type="email"], form input[type="password"], form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px; /* Arrondit les coins des champs de saisie */
+    border: 1px solid #ccc; /* Ajoute une bordure aux champs de saisie */
+}
+
+form input[type="submit"].button1 {
+    margin-top: 20px;
+    padding: 12px 0; /* Modifie le padding pour centrer le texte */
+    width: 100%; /* Fait en sorte que le bouton prenne toute la largeur */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Arrondit les coins du bouton */
+    font-size: 16px; /* Augmente la taille de la police du bouton */
+}
+
+form input[type="submit"].button1:hover {
+    background-color: #45a049;
+}
+
+form a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #4CAF50; /* Couleur du lien */
+}

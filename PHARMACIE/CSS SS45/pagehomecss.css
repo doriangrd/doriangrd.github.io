@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('../DATA/bghomepage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px; /* ajustez la hauteur selon vos besoins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+section {
+    padding: 1em;
+}
